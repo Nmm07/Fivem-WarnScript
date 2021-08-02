@@ -2,7 +2,7 @@ webhookURL = 'WEBHOOK_HERE'
 
 displayIdentifiers = true;
 
--- CODE --
+
 function GetPlayers()
     local players = {}
 
@@ -38,7 +38,7 @@ RegisterCommand("warn", function(source, args, rawCommand)
 	end
 	local target = args[1]
 	if tonumber(id) ~= nil then
-		-- it's a number
+		
 		TriggerClientEvent("Warns:CheckPermission:Client", -1, msg, false)
 		TriggerClientEvent('t-notify:client:Custom', source, {
 			style = 'success',
@@ -93,7 +93,7 @@ function sendToDisc(title, message, footer)
 	local embed = {}
 	embed = {
 		{
-			["color"] = 65280, -- GREEN = 65280 --- RED = 16711680
+			["color"] = 65280, 
 			["title"] = "**".. title .."**",
 			["description"] = "" .. message ..  "",
 			["footer"] = {
@@ -101,7 +101,7 @@ function sendToDisc(title, message, footer)
 			},
 		}
 	}
-	-- Start
+	
 	PerformHttpRequest(webhookURL, 
 	function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
   -- END
@@ -153,11 +153,11 @@ function ExtractIdentifiers(target)
         live = ""
     }
 
-    --Loop over all identifiers
+   
     for i = 0, GetNumPlayerIdentifiers(target) - 1 do
         local id = GetPlayerIdentifier(target, i)
 
-        --Convert it to a nice table.
+       
         if string.find(id, "steam") then
             identifiers.steam = id
         elseif string.find(id, "ip") then
