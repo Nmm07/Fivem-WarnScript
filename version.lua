@@ -1,4 +1,4 @@
-local VERSION = "0.2.0"
+local VERSION = "1.0"
 
 AddEventHandler("onResourceStart", function(resource)
     if resource == GetCurrentResourceName() then
