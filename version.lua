@@ -7,7 +7,7 @@ AddEventHandler("onResourceStart", function(resource)
 end)
 
 function checkVersion()
-  PerformHttpRequest("https://raw.githubusercontent.com/Nmm07/Fivem-WarnScript/version.json", function(err, text, h)
+  PerformHttpRequest("https://raw.githubusercontent.com/Nmm07/Fivem-WarnScript/main/version.json", function(err, text, h)
     if err == 200 then
       local versionArray = json.decode(text)
       local gitVersion = versionArray.version

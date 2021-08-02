@@ -1,6 +1,6 @@
-description 'ESX Money Wash'
+description 'Fivem-WarnScript'
 
-version '0.1.0'
+version '1.0'
 
 client_script "client.lua"
 
