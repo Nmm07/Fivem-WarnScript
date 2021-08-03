@@ -104,7 +104,6 @@ function sendToDisc(title, message, footer)
 	
 	PerformHttpRequest(webhookURL, 
 	function(err, text, headers) end, 'POST', json.encode({username = name, embeds = embed}), { ['Content-Type'] = 'application/json' })
-  -- END
 end
 
 local function has_value (tab, val)
