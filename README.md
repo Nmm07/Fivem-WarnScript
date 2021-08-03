@@ -9,7 +9,7 @@ Hello this is my first release of my warn script that ive made, it comes with a 
 4. Fourth Download [t-notify](https://github.com/TasoOneAsia/t-notify) and put that in your server
 5. Fifth Setup **[Warn.Use]** with your ace perms or identifiers.
 
-**And you are good enjoy!!**
+**And you are good enjoy!!!**
 
 ## Community [Discord]
 [Discord](https://discord.com/invite/t3HbpbbPsH)
