@@ -1,6 +1,6 @@
 description 'Fivem-WarnScript'
 
-version '1.0'
+version '1.1'
 
 client_script "client.lua"
 
