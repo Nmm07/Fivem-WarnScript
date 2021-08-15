@@ -11,10 +11,18 @@ Hello this is my first release of my warn script that ive made, it comes with a 
 
 **And you are good enjoy!!**
 
+# Features
+- Logging To Discord.
+- Database file to log warns.
+- Friendly Config.
+- Set up with ace perms.
+
 ## Community [Discord]
 [Discord](https://discord.com/invite/t3HbpbbPsH)
 
 ## My Github [Github]
 [Github](https://github.com/Nmm07)
+
+
 
 
